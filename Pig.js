@@ -3,9 +3,9 @@ class Pig{
     //first thing that gets invoked when we are creating a new object
     constructor(x, y){
         var options = {
-            restitution: 0.8,
-            friction:1.0,
-            density:1.0
+            'restitution': 0.8,
+            'friction':1.0,
+            'density':1.5
         }
         //this key word is used to refer to the current object created in this class
         this.body = Bodies.rectangle(x, y,50, 50, options);
